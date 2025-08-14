@@ -1,0 +1,129 @@
+/* hover on navbar links to change color */
+
+body {
+	background-color: #1f2122;
+}
+
+img {
+	object-fit: cover;
+}
+
+nav.navbar {
+	background-color: #1f2122;
+
+     .navbar-brand{
+          color: #e75e8d;
+     }
+
+	img {
+		width: 40px;
+	}
+
+	.search-form {
+		i,
+		input::placeholder {
+			color: #666;
+		}
+          input{
+               width: 18rem;
+          }
+	}
+
+	.nav-item.profile {
+		background-color: #27292a;
+		color: #666;
+
+		img {
+			width: 25px;
+		}
+	}
+
+	.nav-item.profile:hover {
+		background-color: #e75e8d;
+
+		a {
+			color: white !important;
+		}
+	}
+
+	.nav-item {
+		a {
+			color: #666;
+		}
+	}
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+	color: #e75e8d !important;
+}
+
+.main.container {
+	background-color: #27292a;
+
+	.allcomponent {
+		width: 90%;
+		margin: 0 auto;
+
+		/* welcome section */
+		.welcome-section {
+			position: relative;
+			background-image: url("../images/banner-bg.jpeg");
+			padding: 90px;
+			padding-right: 0;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+
+			button {
+				background-color: #e75e8d;
+			}
+
+			.browse {
+				color: #e75e8d;
+			}
+		}
+
+		.theme-color {
+			color: #e75e8d;
+		}
+		.button-theme {
+			background-color: #e75e8d;
+		}
+
+		/* popular */
+		.popular-library {
+			background-color: #1f2122;
+
+			.card-bg {
+				background-color: #27292a;
+
+				.card-text {
+					color: #666;
+				}
+
+				.bi-star-fill {
+					color: yellow;
+				}
+
+				.bi-download {
+					color: #ec6090;
+				}
+			}
+
+			.library-img {
+				width: 80px;
+				height: 80px;
+			}
+
+			.desc {
+				color: #666;
+			}
+
+			.download-button {
+				color: #666;
+				border: 1px solid #666;
+			}
+		}
+	}
+}

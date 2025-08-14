@@ -1,0 +1,30 @@
+@media screen and (min-width: 1200px) {
+     .custom-width {
+          width: 12%;
+     }
+     
+}
+
+@media screen and (max-width: 991px) {
+	.navbar-nav {
+		background-color: #27292a;
+		border-radius: 0.5rem;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.welcome-section {
+		padding: 90px 45px !important;
+		text-align: center;
+	}
+
+	.popular-heading {
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.popular-heading {
+		font-size: 1.3rem;
+	}
+}
